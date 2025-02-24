@@ -5,7 +5,7 @@
 ## نحوه عملکرد:
 
 1. **آپلود فایل Lottie JSON**: ابتدا به وبسایت [LottieLab](https://www.lottielab.com) مراجعه کنید و یک فایل Lottie JSON همراه با واترمارک دانلود کنید.
-2. **استفاده از اسکریپت**: فایل JSON دانلود شده را در این سایت آپلود کنید [https://omid-d3v.github.io/lottie-watermark-remover/](https://omid-d3v.github.io/lottie-watermark-remover/) تا لایه حاوی واترمارک (Group Layer 8) حذف شود.
+2. **استفاده از اسکریپت**: فایل JSON دانلود شده را در این سایت آپلود کنید [https://omid-d3v.github.io/lottie-watermark-remover/](https://omid-d3v.github.io/lottie-watermark-remover/) تا لایه حاوی واترمارک حذف شود.
 3. **دریافت فایل تمیز شده**: پس از پردازش، یک فایل JSON بدون واترمارک برای دانلود آماده می‌شود.
 
 ## ویژگی‌ها:
