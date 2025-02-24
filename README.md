@@ -1,30 +1,30 @@
-# Lottie JSON WaterMark Remover
+# حذف واترمارک از Lottie JSON
 
-This script allows you to remove specific layers from a Lottie JSON file, particularly the watermark layer from [LottieLab](https://www.lottielab.com). It is designed to clean up the watermark by removing the "Group Layer 8" from the Lottie JSON, which is where the watermark from LottieLab is typically stored.
+این اسکریپت به شما امکان می‌دهد لایه‌های خاصی را از یک فایل Lottie JSON حذف کنید، به‌ویژه لایه‌ای که حاوی واترمارک وبسایت [LottieLab](https://www.lottielab.com) است. این ابزار طراحی شده تا واترمارک را با حذف **لایه "Group Layer 8"** از فایل Lottie JSON پاک کند، زیرا این واترمارک معمولاً در این لایه قرار می‌گیرد.
 
-## How it works:
+## نحوه عملکرد:
 
-1. **Upload your Lottie JSON**: Visit [LottieLab](https://www.lottielab.com) to create and download a Lottie JSON file with the watermark.
-2. **Use the script**: Upload the downloaded JSON file into this tool, and it will remove the watermark layer (Group Layer 8).
-3. **Download the cleaned Lottie JSON**: The script will generate a clean Lottie JSON file without the watermark.
+1. **آپلود فایل Lottie JSON**: ابتدا به وبسایت [LottieLab](https://www.lottielab.com) مراجعه کنید و یک فایل Lottie JSON با واترمارک ایجاد و دانلود کنید.
+2. **استفاده از اسکریپت**: فایل JSON دانلود شده را در این ابزار آپلود کنید تا لایه حاوی واترمارک (Group Layer 8) حذف شود.
+3. **دریافت فایل تمیز شده**: پس از پردازش، یک فایل JSON بدون واترمارک برای دانلود آماده می‌شود.
 
-## Features:
+## ویژگی‌ها:
 
-- Removes the "Group Layer 8" which contains the watermark from [LottieLab](https://www.lottielab.com).
-- Easy to use through a simple interface: upload a JSON file, click to clean, and download the result.
-- Allows you to get a free watermark-free Lottie file.
+- حذف لایه **"Group Layer 8"** که حاوی واترمارک LottieLab است.
+- رابط کاربری ساده: آپلود فایل، کلیک برای پاک‌سازی، و دریافت فایل تمیز شده.
+- امکان دریافت فایل لوتی رایگان بدون واترمارک.
 
-## How to Use:
+## نحوه استفاده:
 
-1. Go to the page where the script is hosted.
-2. Upload your Lottie JSON file by clicking the "Choose File" button.
-3. Click "Clean JSON" to process the file.
-4. Once the file is cleaned, it will automatically start downloading the new JSON without the watermark.
+1. به صفحه‌ای که این اسکریپت میزبانی شده بروید.
+2. فایل Lottie JSON خود را با کلیک روی دکمه "انتخاب فایل" آپلود کنید.
+3. دکمه **"Clean JSON"** را بزنید تا پردازش انجام شود.
+4. پس از اتمام پردازش، فایل جدید JSON بدون واترمارک به‌صورت خودکار دانلود خواهد شد.
 
-## Requirements:
+## پیش‌نیازها:
 
-- A modern browser that supports HTML5 and JavaScript.
+- مرورگر مدرن که از HTML5 و JavaScript پشتیبانی کند.
 
-## License:
+## لایسنس:
 
-This tool is free to use for removing watermarks from Lottie files created on [LottieLab](https://www.lottielab.com). Please use it responsibly and ensure you are not violating any terms of use for Lottie content.
+این ابزار به‌صورت رایگان برای حذف واترمارک از فایل‌های Lottie که در [LottieLab](https://www.lottielab.com) ساخته شده‌اند ارائه شده است. لطفاً از آن به‌صورت مسئولانه استفاده کنید و اطمینان حاصل کنید که قوانین مربوط به استفاده از محتوای Lottie را نقض نمی‌کنید.
