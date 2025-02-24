@@ -1,8 +1,13 @@
-document.getElementById("jsonFile").addEventListener("change", function(event) {
-    const file = event.target.files[0];
-    if (!file) return;
+function processFile() {
+    const fileInput = document.getElementById("jsonFile");
+    if (!fileInput.files.length) {
+        alert("Please select a file first.");
+        return;
+    }
 
+    const file = fileInput.files[0];
     const reader = new FileReader();
+    
     reader.onload = function(e) {
         try {
             let data = JSON.parse(e.target.result);
@@ -22,7 +27,7 @@ document.getElementById("jsonFile").addEventListener("change", function(event) {
         }
     };
     reader.readAsText(file);
-});
+}
 
 function downloadJSON(data, filename) {
     const blob = new Blob([JSON.stringify(data, null, 4)], { type: "application/json" });

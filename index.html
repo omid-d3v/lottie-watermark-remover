@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lottie Watermark Remover</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            background: #28a745;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
 </head>
 <body>
-    <input type="file" id="jsonFile">
-</body>
+    <div class="container">
+        <h2>Lottie JSON Cleaner</h2>
+        <p>Upload your Lottie JSON file to remove specific layers.</p>
+        <input type="file" id="jsonFile" accept="application/json">
+        <button onclick="processFile()">Clean JSON</button>
+    </div>
+    </body>
 <script src="remove.js"></script>
 </html>
