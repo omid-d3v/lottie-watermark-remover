@@ -1,4 +1,4 @@
-# Lottie JSON Cleaner
+# Lottie JSON WaterMark Remover
 
 This script allows you to remove specific layers from a Lottie JSON file, particularly the watermark layer from [LottieLab](https://www.lottielab.com). It is designed to clean up the watermark by removing the "Group Layer 8" from the Lottie JSON, which is where the watermark from LottieLab is typically stored.
 
