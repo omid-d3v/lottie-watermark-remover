@@ -30,7 +30,7 @@ function processFile() {
 }
 
 function downloadJSON(data, filename) {
-    const blob = new Blob([JSON.stringify(data, null, 4)], { type: "application/json" });
+    const blob = new Blob([JSON.stringify(data)], { type: "application/json" }); 
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = filename;
